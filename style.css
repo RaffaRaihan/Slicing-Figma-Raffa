@@ -16,6 +16,8 @@
 }
 
 .logo{
+    width: 219.54px;
+    height: 56px;
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
@@ -56,11 +58,13 @@
     width: 1440px fixed;
     height: 515px;
     justify-content: space-between;
-    padding: 0px 100px;
     margin-top: 70px;
+    gap: 70px;
+    margin-bottom: 70px;
 }
 
 .main{
+    display: block;
     width: 531px;
     height: 481px;
     justify-content: space-between;
@@ -68,6 +72,8 @@
 }
 
 .main h1{
+    width: 531px;
+    height: 231px;
     color: #000;
     font-family: "Space Grotesk";
     font-weight: 500;
@@ -76,6 +82,8 @@
 }
 
 .main p{
+    width: 498px;
+    height: 112px;
     color: #000;
     font-family: "Space Grotesk";
     font-weight: 400;
@@ -112,7 +120,6 @@
     width: 1440px fixed;
     height: 48px;
     justify-content: space-between;
-    padding-inline: 100px;
 }
 
 .company-logo{
@@ -134,9 +141,9 @@
     width: 1443px fixed;
     height: 51px fixed;
     margin-top: 115px;
-    padding: 0px 100px;
     gap: 40px;
     margin-bottom: 115px;
+    padding-inline: 100px;
 }
 
 .services{
@@ -162,13 +169,13 @@
 }
 
 .card{
-    display: flex;
     width: 1443px fixed;
     height: 1010px fixed;
     top: 1092px;
     padding: 0px 100px;
     gap: 40px;
     opacity: 0px;
+    margin-bottom: 40px;
 }
 
 .main-card{
@@ -176,88 +183,175 @@
     width: 1240px fixed;
     height: 1010px;
     gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.card-1{
+.card-1-4{
     display: flex;
     width: 600px fixed;
     height: 310px;
     padding: 50px;
     border-radius: 45px;
-    border: 1px;
+    border: 1px solid #000;
     justify-content: space-between;
     opacity: 0px;
     background: #F3F3F3;
     box-shadow: 0px 5px 0px 0px #191A23;
 }
-.card-1 .text-card-1{
-    padding: 0px 7px;
-    gap: 10px;
-    border-radius: 7px;
-    opacity: 0px;
-    background: #B9FF66;
-    font-family: "Space Grotesk";
-    margin-bottom: 93px;
-}
-
-.card-1 .learn-more-1{
-    display: flex;
-    width: 164px;
-    height: 41px;
-    gap: 15px;
-    opacity: 0px;
-}
-
-.card-1 .learn-more-1 img{
-    width: 41px;
-    height: 41px;
-}
-
-.card-1 .learn-more-1 p{
-    font-family: "Space Grotesk";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    margin-top: 6.5px;
-    margin-bottom: 6.5px;
-}
-
-.card-1 .img-card-1{
-    width: 210px;
-    height: 170px;
-    
-}
-.card-1 .img-card-1 img{
-    width: 210px;
-    height: 166.05px;
-    top: 2px;
-
-}
-.card-2{
+.card-2-5{
     display: flex;
     width: 600px fixed;
     height: 310px;
     padding: 50px;
     gap: 0px;
     border-radius: 45px;
-    border: 1px;
+    border: 1px solid #000;
     justify-content: space-between;
     opacity: 0px;
     background: #B9FF66;
     box-shadow: 0px 5px 0px 0px #191A23;
 }
-.card-2 .text-card-2{
-    padding: 0px 7px;
-    gap: 10px;
-    border-radius: 7px;
+
+.card-3-6{
+    display: flex;
+    width: 600px fixed;
+    height: 310px;
+    padding: 50px;
+    gap: 0px;
+    border-radius: 45px;
+    border: 1px solid #000;
+    justify-content: space-between;
     opacity: 0px;
-    background: #FFFFFF;
-    font-family: "Space Grotesk";
-    margin-bottom: 93px;
+    background: #191A23;
+    box-shadow: 0px 5px 0px 0px #191A23;
 }
 
-.card-2 .learn-more-2{
+
+.heading-link{
+    display: flex;
+    width: 221px;
+    height: 210px;
+    gap: 93px;
+}
+.text-card{
+    width: 221px;
+    height: 76px;
+    gap: 10px;
+    margin-bottom: 93px;
+}
+.heading-3-1{
+    width: 221px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+.heading-3-2{
+    width: 197px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+
+.heading-3-3{
+    width: 209px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+.heading-3-4{
+    width: 178px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+
+.heading-3-5{
+    width: 197px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+.heading-3-6{
+    width: 161px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+.heading-3-7{
+    width: 90px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+.heading-3-8{
+    width: 161px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+.heading-3-9{
+    width: 133px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+.heading-3-10{
+    width: 137px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #ffff;
+    font-family: "Space Grotesk";
+}
+.heading-3-11{
+    width: 213px;
+    height: 38px;
+    font-size: 29px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+.heading-3-12{
+    width: 138px;
+    height: 38px;
+    font-size: 30px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 7px;
+    background: #B9FF66;
+    font-family: "Space Grotesk";
+}
+
+.learn-more{
     display: flex;
     width: 164px;
     height: 41px;
@@ -265,12 +359,20 @@
     opacity: 0px;
 }
 
-.card-2 .learn-more-2 img{
+.learn-more img{
     width: 41px;
     height: 41px;
 }
 
-.card-2 .learn-more-2 p{
+.learn-more a{
+    text-decoration: none;
+}
+
+.learn-more-w a{
+    text-decoration: none;
+}
+
+.learn-more p{
     font-family: "Space Grotesk";
     font-size: 20px;
     font-weight: 400;
@@ -279,15 +381,32 @@
     margin-top: 6.5px;
     margin-bottom: 6.5px;
 }
+.learn-more-w{
+    display: flex;
+    width: 164px;
+    height: 41px;
+    gap: 15px;
+    opacity: 0px;
+}
+.learn-more-w p{
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 6.5px;
+    margin-bottom: 6.5px;
+    color: white;
+}
 
-.card-2 .img-card-2{
+.img-card{
     width: 210px;
     height: 170px;
-    
+    margin-left: 93px;
 }
-.card-2 .img-card-2 img{
+.img-card img{
     width: 210px;
-    height: 166.05px;
-    top: 2px;
+    height: 170px;
+    margin-top: 2px;
 
 }
