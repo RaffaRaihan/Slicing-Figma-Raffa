@@ -5,11 +5,15 @@
 }
 .landing{
     padding-inline: 100px;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    gap: 70px;
 }
 
 .navigasi{
     margin-top: 40px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,11 +35,9 @@
     color: #000;
     font-family: "Space Grotesk";
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
     padding: 20px 35px;
-    align-items: flex-start;
 }
 
 .button{
@@ -54,26 +56,27 @@
 }
 
 .header{
-    display: flex;
-    width: 1440px fixed;
-    height: 515px;
-    justify-content: space-between;
+    width: auto;
+    height: auto;
     margin-top: 70px;
     gap: 70px;
     margin-bottom: 70px;
+}
+.main-header{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    gap: 70px;
 }
 
 .main{
     display: block;
     width: 531px;
     height: 481px;
-    justify-content: space-between;
-    margin-bottom: 35px;
 }
 
 .main h1{
-    width: 531px;
-    height: 231px;
     color: #000;
     font-family: "Space Grotesk";
     font-weight: 500;
@@ -105,26 +108,26 @@
 .main button a{
     text-decoration: none;
     font-family: "Space Grotesk";
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 400;
     color: white;
 }
 
 .illustration{
-    display: flex;
-    width: 600.46px;
-    height: 515px;
-
+    width: auto;
+    height: auto;
 }
 
 .company{
-    width: 1440px fixed;
-    height: 48px;
+    width: auto;
+    height: auto;
     justify-content: space-between;
 }
 
 .company-logo{
-    width: 1240px fixed;
-    height: 48px;
+    width: auto;
+    height: auto;
     justify-content: space-between;
     gap: 96px;
     display: flex;
@@ -138,8 +141,8 @@
 
 .heading{
     display: flex;
-    width: 1443px fixed;
-    height: 51px fixed;
+    width: auto;
+    height: auto;
     margin-top: 115px;
     gap: 40px;
     margin-bottom: 115px;
@@ -147,8 +150,9 @@
 }
 
 .services{
-    width: 1240px fixed;
-    height: 51px fixed;
+    display: flex;
+    width: auto;
+    height: auto;
     gap: 40px;
 }
 
@@ -165,13 +169,11 @@
     font-weight: 400;
     line-height: 22.97px;
     text-align: left;
-
 }
 
 .card{
-    width: 1443px fixed;
-    height: 1010px fixed;
-    top: 1092px;
+    width: auto;
+    height: auto;
     padding: 0px 100px;
     gap: 40px;
     opacity: 0px;
@@ -180,7 +182,7 @@
 
 .main-card{
     display: flex;
-    width: 1240px fixed;
+    width: 1240px;
     height: 1010px;
     gap: 40px;
     justify-content: space-between;
@@ -189,7 +191,7 @@
 
 .card-1-4{
     display: flex;
-    width: 600px fixed;
+    width: 600px;
     height: 310px;
     padding: 50px;
     border-radius: 45px;
@@ -201,7 +203,7 @@
 }
 .card-2-5{
     display: flex;
-    width: 600px fixed;
+    width: 600px ;
     height: 310px;
     padding: 50px;
     gap: 0px;
@@ -215,7 +217,7 @@
 
 .card-3-6{
     display: flex;
-    width: 600px fixed;
+    width: 600px;
     height: 310px;
     padding: 50px;
     gap: 0px;
@@ -244,6 +246,7 @@
     width: 221px;
     height: 38px;
     font-size: 29px;
+    line-height: 38.28px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #B9FF66;
@@ -262,7 +265,7 @@
 .heading-3-3{
     width: 209px;
     height: 38px;
-    font-size: 29px;
+    font-size: 30px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #ffff;
@@ -281,7 +284,7 @@
 .heading-3-5{
     width: 197px;
     height: 38px;
-    font-size: 29px;
+    font-size: 30px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #ffff;
@@ -299,7 +302,7 @@
 .heading-3-7{
     width: 90px;
     height: 38px;
-    font-size: 29px;
+    font-size: 30px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #B9FF66;
@@ -317,7 +320,7 @@
 .heading-3-9{
     width: 133px;
     height: 38px;
-    font-size: 29px;
+    font-size: 30px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #ffff;
@@ -335,7 +338,7 @@
 .heading-3-11{
     width: 213px;
     height: 38px;
-    font-size: 29px;
+    font-size: 30px;
     padding: 0px 7px 0px 7px;
     border-radius: 7px;
     background: #B9FF66;
@@ -380,6 +383,7 @@
     text-align: left;
     margin-top: 6.5px;
     margin-bottom: 6.5px;
+    color: #000;
 }
 .learn-more-w{
     display: flex;
